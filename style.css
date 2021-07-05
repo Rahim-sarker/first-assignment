@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.half-width p{
+font-size: 23px;
+color: gray;
+margin-bottom: 55px;
+
+}
+
+.text-color{
+    color: orange;
+}
+
+.D-flex-content{
+    display: flex;
+   padding-top: 20px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width h1{
+    padding-top: 13%;
+    
+}
+
+.half-width img{
+    width: 85%;
+}
+.order-button{
+    margin-top: 50px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 25px 40px;
+    border-radius: 40%;
+}
+
+
