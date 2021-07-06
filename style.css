@@ -9,23 +9,26 @@ a{
     font-size: 22px;
 }
 
-.half-width p{
-font-size: 23px;
-color: gray;
-margin-bottom: 55px;
-padding-right: 40px;
 
-}
 
-.text-color{
-    color: orange;
-}
-
+/*Header Part Css Start*/
 .D-flex-content{
-    display: flex;
+   display: flex;
    padding-top: 20px;
    margin-bottom: 120px;
 }
+
+.half-width p{
+    font-size: 23px;
+    color: gray;
+    margin-bottom: 55px;
+    padding-right: 50px;
+    
+}
+.text-color{
+   color: orange;
+}   
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -45,19 +48,33 @@ padding-right: 40px;
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange,tomato);
-    padding: 25px 40px;
-    border-radius: 40%;
+    padding: 20px 40px;
+    border-radius: 40px;
 }
+/*Header Part Css End*/
+
+/*About Me Css Start*/
 .imgresize img{
     width: 45%;
     padding-left: 20%;
 }
-#About-me-bg{
-    background-image: url(images/7.png);
-    background-repeat: no-repeat;
-   background-position: 100%;
+
+.h3-text{
+    color: rgb(107, 105, 105);
+    font-size: 35px;
+    font-weight: bold;
 }
 
+
+#About-me-bg{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/*About Me Css End*/
+
+
+/*Recipies Css Start*/
 .recipies{
     padding-left:26%;
     padding-right:24%;
@@ -67,9 +84,11 @@ padding-right: 40px;
     font-size: 23px;
     color: gray;
     margin-bottom: 55px;
-    padding-right: 40px;
-    
+    padding-right: 40px;  
     }
+/*Recipies Css End*/
+
+/*Card View Css Start*/
     .card-view{
     box-shadow: 10px 10px 40px gray;
     width: 40%;
@@ -78,7 +97,7 @@ padding-right: 40px;
     padding-left: 20px;
     border-radius: 10px;
     }
-.third-width{
+.one-third-width{
     width: 50%;
     padding-left: 1%;
     padding-right: 0%;
@@ -87,10 +106,48 @@ padding-right: 40px;
     margin-left: 3%;
     margin-right: 3%;    
 }
-.third-width img{
+.one-third-width img{
     padding-top: 5%;
     width: 95%;
     height:auto ;
 }
+
+/*Card View Css End*/
+
+/*Social Media  Css Start*/
+#social-followers{
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 22px;
+    padding-bottom: 10px;
+}
+
+.followers-numbers{
+    margin-left: 16%;
+   
+}
+/*Social Media  Css End*/
+
+/*Footer Part Css Start*/
+#footer-bg{
+    width: 100%;
+    background-color:rgb(8, 8, 19);
+    padding-top: 10px;
+    padding-bottom: 7%;
+}
+.footer-part{
+    text-align: center;
+    
+}
+
+.footer-part .network-text {
+    color: gray;
+}
+
+.footer-part .footer-p-tag{
+  color: azure;
+}
+/*Footer Part Css End*/
 
 
